@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\minirtl">
+      <UniqueIdentifier>{a00c7dd0-75f6-467c-8ce0-c2df37fae64a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\vmde">
+      <UniqueIdentifier>{c70bc2e5-5177-4fc9-8668-094cae0257c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ASDE">
+      <UniqueIdentifier>{8a369f1d-c4da-4ba6-b446-a17a4a04e8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\minirtl">
+      <UniqueIdentifier>{94b08b9f-3a05-420a-94f8-7d19d5974a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\vmde">
+      <UniqueIdentifier>{89c1ebbf-7fd3-4db0-815c-5aca9a2b9eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\asde">
+      <UniqueIdentifier>{766c98bd-ae26-4b2d-b743-70fa637369ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StealthInject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PeFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PERsrcBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inlinehook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LDasm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\minirtl.h">
+      <Filter>头文件\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="minirtl\rtltypes.h">
+      <Filter>头文件\minirtl</Filter>
+    </ClInclude>
+    <ClInclude Include="detect.h">
+      <Filter>头文件\vmde</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>头文件\vmde</Filter>
+    </ClInclude>
+    <ClInclude Include="sup.h">
+      <Filter>头文件\vmde</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>头文件\vmde</Filter>
+    </ClInclude>
+    <ClInclude Include="PassEmulator.h">
+      <Filter>头文件\asde</Filter>
+    </ClInclude>
+    <ClInclude Include="ntos.h">
+      <Filter>头文件\vmde</Filter>
+    </ClInclude>
+    <ClInclude Include="asde_tools.h">
+      <Filter>头文件\asde</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExeMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StealthInject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Privilege.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryInjectModule.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeIcons.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Compress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LdrPacker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PackerPoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PeFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PERsrcBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inlinehook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LdrFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LdrLoadDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cmder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strstr.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcat.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmp.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcmpi.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strcpy.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strlen.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\_strncpy.c">
+      <Filter>源文件\minirtl</Filter>
+    </ClCompile>
+    <ClCompile Include="detect.c">
+      <Filter>源文件\vmde</Filter>
+    </ClCompile>
+    <ClCompile Include="minirtl\hextou64.c">
+      <Filter>源文件\vmde</Filter>
+    </ClCompile>
+    <ClCompile Include="sup.c">
+      <Filter>源文件\vmde</Filter>
+    </ClCompile>
+    <ClCompile Include="VMDE.cpp">
+      <Filter>源文件\vmde</Filter>
+    </ClCompile>
+    <ClCompile Include="ASDE.cpp">
+      <Filter>源文件\ASDE</Filter>
+    </ClCompile>
+    <ClCompile Include="PassEmulator.cpp">
+      <Filter>源文件\ASDE</Filter>
+    </ClCompile>
+    <ClCompile Include="asde_tools.cpp">
+      <Filter>源文件\ASDE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
